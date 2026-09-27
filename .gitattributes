@@ -1,0 +1,5 @@
+# Keep line endings as LF in the repository AND in the working tree.
+# Git for Windows defaults to core.autocrlf=true, which can check files out as
+# CRLF and create noisy cross-platform diffs. This repository exists to show
+# code that behaves identically everywhere, so the working tree stays LF too.
+* text=auto eol=lf

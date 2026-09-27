@@ -1,0 +1,8 @@
+# The examples themselves need NOTHING but the Python standard library.
+# Everything below is only for the verification workflow in README.md.
+#
+#   python -m pip install -r requirements.txt
+#
+pytest>=7.4
+mypy>=1.8
+ruff>=0.4
