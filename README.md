@@ -174,17 +174,6 @@ Read in order the first time; the later files assume the vocabulary of the earli
 
 Pairs worth comparing side by side: `05` vs `06` (arguments vs closures), `08` vs `09` (hand-written class vs dataclass), `10` vs `14` (errors vs cleanup), `15` vs `16` (races vs the tests that would catch them).
 
-## Contributing
-
-Pull requests are welcome. To add or change an example:
-
-1. Keep a file self-contained: standard library only, no imports from the other examples.
-2. Add a module docstring with "what this file shows" and "why it matters", a one-line docstring per function, and inline comments that name the pitfall rather than restating the syntax. Comments and docstrings in this repository are written in Simplified Chinese; keep that convention.
-3. Annotate function signatures. Put the `if __name__ == "__main__":` guard (and a `main() -> None` function) at the bottom.
-4. Keep printed output ASCII-only and deterministic enough to read: no emoji, no machine-specific absolute paths, no colours. Explain any genuinely nondeterministic output in a comment (see `15_concurrency.py`).
-5. Keep every line ≤ 100 characters, so `ruff check .` and `mypy .` stay clean.
-6. Run the five commands in [Verification](#verification), then update the results table and the file index in **both** `README.md` and `README.zh-CN.md`.
-
 ## License
 
 [MIT](LICENSE) © 2026 jiejiebiezheyang
